@@ -14,7 +14,7 @@
     </head>
     <body>
         <section id="cabecalho">
-            <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+            <div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
               <header class="mdl-layout__header mdl-layout__header--transparent">
                 <div class="mdl-layout__header-row">
                   <!-- Title -->
@@ -25,6 +25,14 @@
                   <nav class="mdl-navigation">
                     <a class="mdl-navigation__link" href=""><strong>Pontos: 0</strong></a>
                   </nav>
+                  <nav class="mdl-navigation mdl-layout--small-screen-only">
+                    <button id="menu-lateral" class="mdl-button mdl-js-button mdl-button--icon"> <i class="material-icons">more_vert</i> </button>
+                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu-lateral">
+                        <li class="mdl-menu__item">Sair</li>
+                    </ul>
+                  </nav>
+
+
                 </div>
               </header>
               <div class="mdl-layout__drawer">
@@ -37,7 +45,7 @@
               </div>
               <main class="mdl-layout__content">
                     <section id="corpo">
- 
+                         
                     </section>
                     <section id="rodape">
 
