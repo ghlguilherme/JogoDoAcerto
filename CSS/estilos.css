@@ -1,4 +1,8 @@
 
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
 .demo-layout-transparent {
   /*background: url('../IMG/matematica.jpg') center / cover;*/
     background: #222;
@@ -11,4 +15,12 @@
 }
 .container{
     color: white;
+    
+}
+#corpo{
+
+}
+a:hover{
+    text-decoration-line: none;
+    text-decoration: none;
 }
