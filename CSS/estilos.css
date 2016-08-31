@@ -23,4 +23,11 @@ html, body {
 a:hover{
     text-decoration-line: none;
     text-decoration: none;
+    color: greenyellow;
+}
+a{
+    color: white;
+}
+.mdl-layout__drawer a{
+    color: dimgray;
 }
